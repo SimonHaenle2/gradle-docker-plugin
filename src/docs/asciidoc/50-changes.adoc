@@ -1,6 +1,11 @@
 == Change Log
 
 [discrete]
+=== v7.5.0 (Aug 08, 2022)
+
+* Upgraded Java sourceCompatibility and targetCompatibility to JavaVersion.VERSION_17
+
+[discrete]
 === v7.4.0 (May 23, 2022)
 
 * Credentials in the `config.json` are overwritten by default (but unset) auth-config - {uri-github}/pull/1065[PR 1065]
