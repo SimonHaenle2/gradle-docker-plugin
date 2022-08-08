@@ -51,6 +51,18 @@ tasks.named<Jar>("jar") {
     }
 }
 
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = "com.github.SimonHaenle2"
+            artifactId = "gradle-docker-plugin"
+            version = "7.5.4"
+
+            from(components["java"])
+        }
+    }
+}
+
 gradlePlugin {
     plugins {
         create("docker-remote-api") {

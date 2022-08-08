@@ -1,8 +1,0 @@
-{
-  "auths": {
-    "localhost:5001": {
-      "username": "testuser",
-      "password": "testpassword"
-    }
-  }
-}
