@@ -18,7 +18,7 @@ plugins {
     `maven-publish`
 }
 
-group = "com.bmuschko"
+group = "com.github.SimonHaenle2"
 
 repositories {
     mavenCentral()
