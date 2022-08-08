@@ -15,6 +15,7 @@ plugins {
     com.bmuschko.gradle.docker.`user-guide`
     com.bmuschko.gradle.docker.documentation
     com.bmuschko.gradle.docker.release
+    `maven-publish`
 }
 
 group = "com.bmuschko"
